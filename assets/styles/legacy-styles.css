@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;500&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.2em;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  color: #555
+}
+
+h1,h3,h4 {
+  font-weight: 400
+}
+
+h3,h4 {
+  font-size: 1em
+}
+
+h2,strong {
+  color: #333;
+  font-weight: 400
+}
+
+#header {
+  height: auto;
+  width: auto
+}
+
+
+
+footer h3 {
+  font-weight: 400;
+  margin-bottom: .5em;
+  font-size: 1.4em;
+  color: #407f7f
+}
+
+footer {
+  padding-top: 2em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em
+}
+
+footer p {
+  font-weight: 300
+}
+
+@media only screen and (min-width: 992px) {
+
+  div.location {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+
+}
+
+.content-pad {
+  padding: 15px
+}
+
+.menu-header {
+  padding-top: 3rem;
+  text-align: center;
+  color: #363636
+}
+
+.menu-item-name {
+  padding-top: .4rem;
+  color: #06c
+}
+
+.menu-description {
+  margin: auto;
+  color: #4d4141;
+  font-size: .8em;
+  line-height: 1.7em
+}
+
+.menu-item-description {
+  color: #424242;
+  line-height: 1.5em;
+  font-size: .7em
+}
+
+.menu-item-description2 {
+  font-weight: 300
+}
+
+.food-price {
+  font-size: 1em;
+  font-weight: 500;
+  color: #aa3939
+}
+
+@media screen and (min-width: 992px) {
+  .food-price {
+    font-size: 1.4em;
+  }
+}
+
+
+.food-price strong {
+  color: #474242
+}
+
+h1 {
+  color: #424242;
+  z-index: 2
+}
+
+.menu-breakfast {
+  background-size: cover
+}
+
+.menu-breakfast h3 {
+  font-weight: 400;
+  font-size: 1.1em
+}
+
+.menu-breakfast .menu-description {
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em
+}
+
+.menu-breakfast .food-price strong {
+  font-weight: 100
+}
+
+.menu-sandwich {
+  background-size: cover
+}
+
+.menu-salads {
+  background: cover
+}
+
+.menu-kids .menu-list p.menu-description {
+  text-align: left
+}
+
+.menu-burgers,.menu-chinese {
+  background-size: cover
+}
+
+.menu-chinese {
+  font-size: 1em
+}
+
+.menu-body .menu-chinese {
+  padding: 1em
+}
+
+.menu-chinese p.menu-item-description {
+  line-height: 1.5em
+}
+
+.menu-chinese .food-price {
+  font-size: 1em;
+  color: #500
+}
+
+.menu-body {
+  max-width: 95%;
+  margin: 0 auto
+}
+
+.menu-extras,.menu-mexican {
+  background-size: cover
+}
+
+.menu-extras {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5))
+}
+
+li {
+  list-style: none
+}
+
+.about {
+  line-height: 2.5em;
+  height: 500px
+}
+
+.about h1 {
+  color: #333;
+  color: #06c;
+  font-weight: 100;
+  margin-bottom: .5em
+}
+
+.about p {
+  font-weight: 300;
+  font-size: 1.5em
+}
+
+.about_img {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  border-radius: 3px
+}
+
+.jumbotron {
+  background: 0 0;
+  background-size: cover
+}
+
+.contact {
+  line-height: 1.1em;
+  font-size: 1em
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden
+}
+
+.google-maps .iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+#error {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 15em
+}
+
+#error h1 {
+  margin-top: 0
+}
+
+#error-text h1 {
+  color: #da4f49
+}
+
+#error-text h3 {
+  font-weight: 300
+}
+
+#error-buttons p {
+  margin-top: 2em
+}
+
+.nuxt-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  opacity: 1;
+  transition: width .1s,opacity .4s;
+  background-color: #000;
+  z-index: 999999
+}
+
+.nuxt-progress.nuxt-progress-notransition {
+  transition: none
+}
+
+.nuxt-progress-failed {
+  background-color: red
+}
+
+html {
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box
+}
+
+*,::after,::before {
+  box-sizing: border-box;
+  margin: 0
+}
+
+.button--green {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
+  padding: 10px 30px
+}
+
+.button--green:hover {
+  color: #fff;
+  background-color: #3b8070
+}
+
+.button--grey {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #35495e;
+  color: #35495e;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px
+}
+
+.button--grey:hover {
+  color: #fff;
+  background-color: #35495e
+}

@@ -9,7 +9,20 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxtjs/eslint-module": "^4.0.2",
     "@types/node": "^18",
-    "nuxt": "^3.4.2"
+    "@unocss/nuxt": "^0.51.8",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-vue": "^9.13.0",
+    "nuxt": "^3.4.2",
+    "nuxt-icon": "^0.4.0",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.17",
+    "@headlessui/vue": "^1.7.13"
   }
 }
