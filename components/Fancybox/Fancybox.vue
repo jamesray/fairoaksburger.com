@@ -1,4 +1,5 @@
 <script lang="ts">
+// @es
 import type { Fancybox as FancyboxType } from '@fancyapps/ui/types'
 import * as Fancyapps from '@fancyapps/ui'
 const Fancybox: typeof FancyboxType = Fancyapps.Fancybox
